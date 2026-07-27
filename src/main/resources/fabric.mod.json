@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "mf",
+  "version": "${version}",
+  "name": "Moldovan Foods",
+  "description": "A Romanian/Moldovan-themed food mod: kebabs, zacusca, marar (dill) crops, salt ore, and more.",
+  "authors": [
+    "Lukas"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/mf/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.moldovanfoods.mf.MoldovanFoods"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
