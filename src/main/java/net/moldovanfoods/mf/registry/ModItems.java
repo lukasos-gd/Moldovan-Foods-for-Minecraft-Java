@@ -4,7 +4,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -50,19 +50,20 @@ public class ModItems {
                     .nutrition(3)
                     .saturationModifier(0.3f)
                     .build()));
+
     public static final Item MARAR_SEEDS = registerBlockItem("marar_seeds", ModBlocks.MARAR_CROP);
 
     public static final Item SALT_ORE = registerBlockItem("salt_ore", ModBlocks.SALT_ORE);
     public static final Item DEEPSLATE_SALT_ORE = registerBlockItem("deepslate_salt_ore", ModBlocks.DEEPSLATE_SALT_ORE);
 
     private static Item register(String path, java.util.function.Supplier<Item.Properties> propertiesSupplier) {
-        ResourceKey<Item> key = ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(MoldovanFoods.MOD_ID, path));
+        ResourceKey<Item> key = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MoldovanFoods.MOD_ID, path));
         Item item = new Item(propertiesSupplier.get().setId(key));
         return Registry.register(BuiltInRegistries.ITEM, key, item);
     }
 
     private static Item registerBlockItem(String path, net.minecraft.world.level.block.Block block) {
-        ResourceKey<Item> key = ResourceKey.create(Registries.ITEM, ResourceLocation.fromNamespaceAndPath(MoldovanFoods.MOD_ID, path));
+        ResourceKey<Item> key = ResourceKey.create(Registries.ITEM, Identifier.fromNamespaceAndPath(MoldovanFoods.MOD_ID, path));
         Item item = new BlockItem(block, new Item.Properties().setId(key));
         return Registry.register(BuiltInRegistries.ITEM, key, item);
     }
