@@ -4,8 +4,8 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.sounds.SoundType;
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
@@ -19,7 +19,7 @@ public class ModBlocks {
             "marar_crop",
             MararCropBlock::new,
             BlockBehaviour.Properties.of()
-                    .noCollission()
+                    .noCollision()
                     .randomTicks()
                     .instabreak()
                     .sound(SoundType.CROP)
@@ -47,7 +47,7 @@ public class ModBlocks {
     );
 
     private static Block register(String path, java.util.function.Function<BlockBehaviour.Properties, Block> factory, BlockBehaviour.Properties properties) {
-        ResourceKey<Block> key = ResourceKey.create(Registries.BLOCK, ResourceLocation.fromNamespaceAndPath(MoldovanFoods.MOD_ID, path));
+        ResourceKey<Block> key = ResourceKey.create(Registries.BLOCK, Identifier.fromNamespaceAndPath(MoldovanFoods.MOD_ID, path));
         Block block = factory.apply(properties.setId(key));
         return Registry.register(BuiltInRegistries.BLOCK, key, block);
     }
