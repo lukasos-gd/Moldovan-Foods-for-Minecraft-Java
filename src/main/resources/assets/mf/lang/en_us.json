@@ -1,0 +1,22 @@
+{
+  "itemGroup.mf.main": "Moldovan Foods",
+
+  "block.mf.marar_crop": "Mărar",
+  "block.mf.salt_ore": "Minereu de sare",
+  "block.mf.deepslate_salt_ore": "Minereu din deepslate de sare",
+
+  "item.mf.castron": "Castron",
+  "item.mf.castron_de_pelimene": "Castron di Pelimene",
+  "item.mf.pachet": "Pachet",
+  "item.mf.pachet_de_pelimene": "Pachet de Pelimene",
+  "item.mf.aluat": "Aluat",
+  "item.mf.drojdie": "Drojdie",
+  "item.mf.sare": "Sare",
+  "item.mf.marar": "Mărar",
+  "item.mf.marar_seeds": "Mărar Seeds",
+  "item.mf.kebab": "Kebab",
+  "item.mf.bors": "Borș",
+  "item.mf.zacusca": "Zacuscă",
+  "item.mf.paine_cu_zacusca": "Paine cu Zacuscă",
+  "item.mf.lavas": "Lavaș"
+}
