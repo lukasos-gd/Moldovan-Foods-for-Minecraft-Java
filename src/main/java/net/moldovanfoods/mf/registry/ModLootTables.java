@@ -11,7 +11,7 @@ public class ModLootTables {
 
     public static void register() {
         LootTableEvents.MODIFY.register((key, tableBuilder, source, registries) -> {
-            if (source.isBuiltin() && Blocks.SHORT_GRASS.getLootTable() == key) {
+            if (source.isBuiltin() && Blocks.SHORT_GRASS.getLootTable().orElse(null) == key) {
                 LootPool.Builder pool = LootPool.lootPool()
                         .add(LootItem.lootTableItem(ModItems.MARAR_SEEDS))
                         .when(LootItemRandomChanceCondition.randomChance(0.2f));
