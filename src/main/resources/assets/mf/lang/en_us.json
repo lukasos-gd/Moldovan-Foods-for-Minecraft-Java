@@ -18,5 +18,7 @@
   "item.mf.bors": "Borș",
   "item.mf.zacusca": "Zacuscă",
   "item.mf.paine_cu_zacusca": "Pâine cu Zacuscă",
-  "item.mf.lavas": "Lavaș"
+  "item.mf.lavas": "Lavaș",
+  "item.mf.salt_ore": "Minereu de sare",
+  "item.mf.deepslate_salt_ore": "Minereu din deepslate de sare"
 }
