@@ -2,6 +2,7 @@ package net.moldovanfoods.mf;
 
 import net.fabricmc.api.ModInitializer;
 import net.moldovanfoods.mf.registry.ModBlocks;
+import net.moldovanfoods.mf.registry.ModItemGroups;
 import net.moldovanfoods.mf.registry.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,5 +17,6 @@ public class MoldovanFoods implements ModInitializer {
 
         ModBlocks.register();
         ModItems.register();
+        ModItemGroups.register();
     }
 }
