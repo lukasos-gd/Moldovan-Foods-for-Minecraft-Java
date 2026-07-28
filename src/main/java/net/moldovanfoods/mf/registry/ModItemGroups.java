@@ -1,6 +1,6 @@
 package net.moldovanfoods.mf.registry;
 
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
+import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
@@ -17,7 +17,7 @@ public class ModItemGroups {
             Identifier.fromNamespaceAndPath(MoldovanFoods.MOD_ID, "moldovan_foods")
     );
 
-    public static final CreativeModeTab MOLDOVAN_FOODS_TAB = FabricItemGroup.builder()
+    public static final CreativeModeTab MOLDOVAN_FOODS_TAB = FabricCreativeModeTab.builder()
             .icon(() -> new ItemStack(ModItems.KEBAB))
             .title(Component.translatable("itemGroup.mf.main"))
             .displayItems((params, output) -> {
