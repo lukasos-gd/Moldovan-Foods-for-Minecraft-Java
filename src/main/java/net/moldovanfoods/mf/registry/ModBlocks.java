@@ -28,6 +28,7 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE)
                     .sound(SoundType.STONE)
+                    .lootFrom(() -> SALT_ORE)
     );
 
     public static final Block DEEPSLATE_SALT_ORE = register(
@@ -35,7 +36,9 @@ public class ModBlocks {
             Block::new,
             BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE)
                     .sound(SoundType.DEEPSLATE)
+                    .lootFrom(() -> DEEPSLATE_SALT_ORE)
     );
+
     private static Block register(String path, java.util.function.Function<BlockBehaviour.Properties, Block> factory, BlockBehaviour.Properties properties) {
         ResourceKey<Block> key = ResourceKey.create(
                 Registries.BLOCK,
