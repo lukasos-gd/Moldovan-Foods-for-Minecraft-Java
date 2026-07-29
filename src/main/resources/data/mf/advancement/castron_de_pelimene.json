@@ -1,0 +1,30 @@
+{
+  "parent": "mf:root",
+  "display": {
+    "icon": {
+      "id": "mf:castron_de_pelimene"
+    },
+    "title": {
+      "text": "Castron di Pelimene"
+    },
+    "description": {
+      "text": "Obtain Castron di Pelimene"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_castron_de_pelimene": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mf:castron_de_pelimene"
+          }
+        ]
+      }
+    }
+  }
+}

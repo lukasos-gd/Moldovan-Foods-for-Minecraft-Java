@@ -1,0 +1,30 @@
+{
+  "parent": "mf:root",
+  "display": {
+    "icon": {
+      "id": "mf:pachet_de_pelimene"
+    },
+    "title": {
+      "text": "Pachet de Pelimene"
+    },
+    "description": {
+      "text": "Obtain Pachet de Pelimene"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_pachet_de_pelimene": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mf:pachet_de_pelimene"
+          }
+        ]
+      }
+    }
+  }
+}

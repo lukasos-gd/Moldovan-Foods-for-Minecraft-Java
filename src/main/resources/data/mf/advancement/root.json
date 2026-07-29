@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "mf:kebab"
+    },
+    "title": {
+      "text": "Moldovan Foods"
+    },
+    "description": {
+      "text": "Taste the flavors of Moldova"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
