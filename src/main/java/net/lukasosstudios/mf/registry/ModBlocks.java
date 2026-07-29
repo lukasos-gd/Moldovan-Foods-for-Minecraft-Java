@@ -13,7 +13,6 @@ import net.minecraft.world.level.material.PushReaction;
 
 import net.lukasosstudios.mf.MoldovanFoods;
 import net.lukasosstudios.mf.block.MararCropBlock;
-import net.lukasosstudios.mf.block.OreBlockWithLoot;
 
 public class ModBlocks {
 
@@ -30,7 +29,7 @@ public class ModBlocks {
 
     public static final Block SALT_ORE = register(
             "salt_ore",
-            props -> new OreBlockWithLoot(props, MoldovanFoods.MOD_ID, "salt_ore"),
+            Block::new,
             BlockBehaviour.Properties.of()
                     .mapColor(MapColor.STONE)
                     .requiresCorrectToolForDrops()
@@ -40,7 +39,7 @@ public class ModBlocks {
 
     public static final Block DEEPSLATE_SALT_ORE = register(
             "deepslate_salt_ore",
-            props -> new OreBlockWithLoot(props, MoldovanFoods.MOD_ID, "deepslate_salt_ore"),
+            Block::new,
             BlockBehaviour.Properties.of()
                     .mapColor(MapColor.DEEPSLATE)
                     .requiresCorrectToolForDrops()
