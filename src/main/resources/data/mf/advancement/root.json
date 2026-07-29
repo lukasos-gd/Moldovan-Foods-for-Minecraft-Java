@@ -9,7 +9,7 @@
     "description": {
       "text": "Taste the flavors of Moldova"
     },
-    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry.png",
+    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
