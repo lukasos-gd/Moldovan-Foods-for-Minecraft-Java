@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " A ",
+    " S ",
+    " P "
+  ],
+  "key": {
+    "P": "mf:pachet",
+    "S": "minecraft:cooked_beef",
+    "A": "mf:aluat"
+  },
+  "result": {
+    "id": "mf:pachet_de_pelimene",
+    "count": 1
+  }
+}

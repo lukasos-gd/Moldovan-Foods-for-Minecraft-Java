@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " W ",
+    "SAS",
+    " W "
+  ],
+  "key": {
+    "W": "minecraft:wheat",
+    "S": "minecraft:sugar",
+    "A": "mf:sare"
+  },
+  "result": {
+    "id": "mf:drojdie",
+    "count": 4
+  }
+}

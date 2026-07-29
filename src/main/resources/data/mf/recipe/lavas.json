@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "ADA",
+    " A "
+  ],
+  "key": {
+    "A": "mf:aluat",
+    "D": "mf:drojdie",
+    "S": "mf:sare"
+  },
+  "result": {
+    "id": "mf:lavas",
+    "count": 1
+  }
+}

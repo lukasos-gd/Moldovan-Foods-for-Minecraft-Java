@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " M ",
+    "LBL",
+    " C "
+  ],
+  "key": {
+    "M": "mf:marar",
+    "L": "mf:lavas",
+    "B": "minecraft:cooked_beef",
+    "C": "minecraft:carrot"
+  },
+  "result": {
+    "id": "mf:kebab",
+    "count": 1
+  }
+}

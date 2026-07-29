@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#M#",
+    "P/P",
+    " C "
+  ],
+  "key": {
+    "#": "minecraft:carrot",
+    "M": "mf:marar",
+    "P": "minecraft:potato",
+    "/": "minecraft:cooked_porkchop",
+    "C": "mf:castron"
+  },
+  "result": {
+    "id": "mf:bors",
+    "count": 1
+  }
+}

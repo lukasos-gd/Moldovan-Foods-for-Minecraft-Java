@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:carrot",
+    "minecraft:beetroot",
+    "minecraft:baked_potato",
+    "mf:marar"
+  ],
+  "result": {
+    "id": "mf:zacusca",
+    "count": 4
+  }
+}

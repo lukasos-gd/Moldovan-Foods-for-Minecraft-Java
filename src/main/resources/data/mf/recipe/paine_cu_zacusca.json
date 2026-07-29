@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " Z ",
+    " B "
+  ],
+  "key": {
+    "Z": "mf:zacusca",
+    "B": "minecraft:bread"
+  },
+  "result": {
+    "id": "mf:paine_cu_zacusca",
+    "count": 1
+  }
+}

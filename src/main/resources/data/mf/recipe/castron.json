@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "Q Q",
+    " G "
+  ],
+  "key": {
+    "Q": "minecraft:quartz",
+    "G": "minecraft:glass"
+  },
+  "result": {
+    "id": "mf:castron",
+    "count": 1
+  }
+}

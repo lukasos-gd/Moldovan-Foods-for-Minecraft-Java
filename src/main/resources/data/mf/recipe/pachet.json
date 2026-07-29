@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PSP",
+    "SBS",
+    "PSP"
+  ],
+  "key": {
+    "P": "minecraft:paper",
+    "S": "minecraft:string",
+    "B": "minecraft:slime_ball"
+  },
+  "result": {
+    "id": "mf:pachet",
+    "count": 1
+  }
+}

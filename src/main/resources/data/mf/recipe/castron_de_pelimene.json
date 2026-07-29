@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    " C "
+  ],
+  "key": {
+    "P": "mf:pachet_de_pelimene",
+    "C": "mf:castron"
+  },
+  "result": {
+    "id": "mf:castron_de_pelimene",
+    "count": 1
+  }
+}
