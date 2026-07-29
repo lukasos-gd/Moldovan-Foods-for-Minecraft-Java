@@ -9,7 +9,7 @@
   ],
   "contact": {},
   "license": "Apache License 2.0",
-  "icon": "icon.png",
+  "icon": "assets/mf/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
