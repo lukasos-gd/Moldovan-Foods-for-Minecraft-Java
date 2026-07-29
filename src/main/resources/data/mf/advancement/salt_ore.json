@@ -7,8 +7,8 @@
     "title": {
       "text": "Salt Ore"
     },
-    "description": {h
-      "text": "Obtain a block of Salt Ore with Silk Touch"
+    "description": {
+      "text": "Obtain a block of Salt Ore with a Silk Touch pickaxe"
     },
     "frame": "task",
     "show_toast": true,
