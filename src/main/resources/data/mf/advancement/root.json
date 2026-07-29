@@ -7,9 +7,9 @@
       "text": "Moldovan Foods"
     },
     "description": {
-      "text": "Taste the flavors of Moldova"
+      "text": "Enter a world with this mod activated."
     },
-    "background": "minecraft:textures/gui/advancements/backgrounds/husbandry",
+    "background": "minecraft:gui/advancements/backgrounds/husbandry",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
