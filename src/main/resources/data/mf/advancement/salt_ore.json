@@ -8,7 +8,7 @@
       "text": "Salt Ore"
     },
     "description": {
-      "text": "Obtain a block of Salt Ore with a Silk Touch pickaxe"
+      "text": "Obtain a block of Salt Ore with a Silk Touch pickaxe."
     },
     "frame": "task",
     "show_toast": true,
