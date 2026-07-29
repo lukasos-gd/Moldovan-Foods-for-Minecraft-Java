@@ -1,4 +1,4 @@
-name: Compile the mod
+name: Build Mod JAR
 
 on:
   push:
