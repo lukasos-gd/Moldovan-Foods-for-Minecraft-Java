@@ -20,7 +20,9 @@
               "function": "minecraft:apply_bonus",
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:uniform_bonus_count",
-              "bonusMultiplier": 2
+              "parameters": {
+                "bonusMultiplier": 2
+              }
             }
           ]
         }
