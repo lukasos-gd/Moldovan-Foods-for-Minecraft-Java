@@ -8,7 +8,7 @@
       "text": "Deepslate Salt Ore"
     },
     "description": {
-      "text": "Obtain Deepslate Salt Ore"
+      "text": "Obtain a block of Deepslate Salt Ore with a Silk Touch pickaxe."
     },
     "frame": "task",
     "show_toast": true,
