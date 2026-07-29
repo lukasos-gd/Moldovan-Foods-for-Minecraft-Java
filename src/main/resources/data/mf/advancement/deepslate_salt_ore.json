@@ -1,0 +1,30 @@
+{
+  "parent": "mf:root",
+  "display": {
+    "icon": {
+      "item": "mf:deepslate_salt_ore"
+    },
+    "title": {
+      "text": "Deepslate Salt Ore"
+    },
+    "description": {
+      "text": "Obtain Deepslate Salt Ore"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_deepslate_salt_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mf:deepslate_salt_ore"
+          }
+        ]
+      }
+    }
+  }
+}

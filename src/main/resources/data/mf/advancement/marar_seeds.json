@@ -1,0 +1,30 @@
+{
+  "parent": "mf:root",
+  "display": {
+    "icon": {
+      "item": "mf:marar_seeds"
+    },
+    "title": {
+      "text": "Marar Seeds"
+    },
+    "description": {
+      "text": "Obtain Marar Seeds"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_marar_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mf:marar_seeds"
+          }
+        ]
+      }
+    }
+  }
+}

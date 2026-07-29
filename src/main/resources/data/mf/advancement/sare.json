@@ -1,0 +1,30 @@
+{
+  "parent": "mf:root",
+  "display": {
+    "icon": {
+      "item": "mf:sare"
+    },
+    "title": {
+      "text": "Sare"
+    },
+    "description": {
+      "text": "Obtain Sare"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_sare": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mf:sare"
+          }
+        ]
+      }
+    }
+  }
+}
