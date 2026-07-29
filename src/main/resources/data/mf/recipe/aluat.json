@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "WSB",
+    " E "
+  ],
+  "key": {
+    "W": "minecraft:wheat",
+    "S": "mf:sare",
+    "B": "minecraft:water_bucket",
+    "E": "minecraft:egg"
+  },
+  "result": {
+    "id": "mf:aluat",
+    "count": 4
+  }
+}
