@@ -1,0 +1,30 @@
+{
+  "parent": "mf:root",
+  "display": {
+    "icon": {
+      "id": "mf:sare"
+    },
+    "title": {
+      "translate": "advancements.mf.sare.title"
+    },
+    "description": {
+      "translate": "advancements.mf.sare.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_sare": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mf:sare"
+          }
+        ]
+      }
+    }
+  }
+}

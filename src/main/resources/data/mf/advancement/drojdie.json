@@ -1,0 +1,30 @@
+{
+  "parent": "mf:root",
+  "display": {
+    "icon": {
+      "id": "mf:drojdie"
+    },
+    "title": {
+      "translate": "advancements.mf.drojdie.title"
+    },
+    "description": {
+      "translate": "advancements.mf.drojdie.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_drojdie": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mf:drojdie"
+          }
+        ]
+      }
+    }
+  }
+}

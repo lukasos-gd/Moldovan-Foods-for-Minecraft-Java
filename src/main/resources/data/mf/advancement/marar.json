@@ -1,0 +1,30 @@
+{
+  "parent": "mf:root",
+  "display": {
+    "icon": {
+      "id": "mf:marar"
+    },
+    "title": {
+      "translate": "advancements.mf.marar.title"
+    },
+    "description": {
+      "translate": "advancements.mf.marar.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_marar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mf:marar"
+          }
+        ]
+      }
+    }
+  }
+}
