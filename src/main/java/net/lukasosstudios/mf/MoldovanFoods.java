@@ -2,6 +2,7 @@ package net.lukasosstudios.mf;
 
 import net.fabricmc.api.ModInitializer;
 import net.lukasosstudios.mf.registry.ModBlocks;
+import net.lukasosstudios.mf.registry.ModCompostables;
 import net.lukasosstudios.mf.registry.ModItemGroups;
 import net.lukasosstudios.mf.registry.ModItems;
 import net.lukasosstudios.mf.registry.ModLootTables;
@@ -22,5 +23,6 @@ public class MoldovanFoods implements ModInitializer {
         ModItemGroups.register();
         ModWorldGen.register();
         ModLootTables.register();
+        ModCompostables.register();
     }
 }
