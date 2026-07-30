@@ -11,12 +11,16 @@
             {
               "condition": "minecraft:match_tool",
               "predicate": {
-                "enchantments": [
-                  {
-                    "enchantment": "minecraft:silk_touch",
-                    "levels": { "min": 1 }
-                  }
-                ]
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "minecraft:silk_touch",
+                      "levels": {
+                        "min": 1
+                      }
+                    }
+                  ]
+                }
               }
             }
           ]
@@ -30,12 +34,16 @@
               "term": {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "enchantments": [
-                    {
-                      "enchantment": "minecraft:silk_touch",
-                      "levels": { "min": 1 }
-                    }
-                  ]
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
                 }
               }
             }
@@ -43,13 +51,19 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": { "type": "minecraft:uniform", "min": 1, "max": 3 }
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
             },
             {
               "function": "minecraft:apply_bonus",
               "enchantment": "minecraft:fortune",
               "formula": "minecraft:uniform_bonus_count",
-              "parameters": { "bonusMultiplier": 2 }
+              "parameters": {
+                "bonusMultiplier": 2
+              }
             }
           ]
         }
