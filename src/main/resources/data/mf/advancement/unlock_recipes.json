@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "auto": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "mf:aluat",
+      "mf:bors",
+      "mf:burger",
+      "mf:burger_bun",
+      "mf:castron",
+      "mf:castron_de_pelimene",
+      "mf:cheese",
+      "mf:drojdie",
+      "mf:kebab",
+      "mf:lavas",
+      "mf:pachet",
+      "mf:pachet_de_pelimene",
+      "mf:paine_cu_zacusca",
+      "mf:zacusca"
+    ]
+  }
+}
