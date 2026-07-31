@@ -26,6 +26,9 @@ public class ModItemGroups {
                 output.accept(ModItems.ZACUSCA);
                 output.accept(ModItems.PAINE_CU_ZACUSCA);
                 output.accept(ModItems.CASTRON_DE_PELIMENE);
+                output.accept(ModItems.BURGER_BUN);
+                output.accept(ModItems.BURGER);
+                output.accept(ModItems.CHEESE);
                 output.accept(ModItems.CASTRON);
                 output.accept(ModItems.PACHET);
                 output.accept(ModItems.PACHET_DE_PELIMENE);
