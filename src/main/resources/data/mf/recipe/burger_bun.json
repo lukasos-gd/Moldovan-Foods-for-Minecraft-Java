@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bread"
+  ],
+  "result": {
+    "id": "mf:burger_bun",
+    "count": 1
+  }
+}

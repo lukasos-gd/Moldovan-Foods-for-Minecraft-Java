@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "B",
+    "C",
+    "B"
+  ],
+  "key": {
+    "B": "mf:burger_bun",
+    "C": "minecraft:cooked_beef"
+  },
+  "result": {
+    "id": "mf:burger",
+    "count": 1
+  }
+}

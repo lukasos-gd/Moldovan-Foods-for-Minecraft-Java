@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:milk_bucket",
+    "minecraft:milk_bucket",
+    "minecraft:milk_bucket"
+  ],
+  "result": {
+    "id": "mf:cheese",
+    "count": 1
+  }
+}
