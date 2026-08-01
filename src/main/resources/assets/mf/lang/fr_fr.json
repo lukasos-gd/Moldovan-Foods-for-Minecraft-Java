@@ -1,10 +1,10 @@
 {
   "itemGroup.mf.main": "Cuisine Moldave",
-
+  
   "block.mf.marar_crop": "Aneth",
   "block.mf.salt_ore": "Minerai de Sel",
   "block.mf.deepslate_salt_ore": "Minerai de Sel en Ardoise des abîmes",
-
+  
   "item.mf.castron": "Bol",
   "item.mf.castron_de_pelimene": "Bol de Pelimene",
   "item.mf.pachet": "Paquet",
@@ -21,7 +21,10 @@
   "item.mf.lavas": "Lavaș",
   "item.mf.salt_ore": "Minerai de Sel",
   "item.mf.deepslate_salt_ore": "Minerai de Sel en Ardoise des abîmes",
-
+  "item.mf.burger_bun": "Pain à Burger",
+  "item.mf.burger": "Burger",
+  "item.mf.cheese": "Fromage",
+  
   "advancements.mf.root.description": "Ayez ce mod activé dans un monde ou sur un serveur",
   "advancements.mf.kebab.title": "Kebab",
   "advancements.mf.kebab.description": "Obtenez ou fabriquez un Kebab",
@@ -54,5 +57,11 @@
   "advancements.mf.salt_ore.title": "Minerai de Sel",
   "advancements.mf.salt_ore.description": "Obtenez un Minerai de Sel",
   "advancements.mf.deepslate_salt_ore.title": "Minerai de Sel en Ardoise des abîmes",
-  "advancements.mf.deepslate_salt_ore.description": "Obtenez un Minerai de Sel en Ardoise des abîmes"
+  "advancements.mf.deepslate_salt_ore.description": "Obtenez un Minerai de Sel en Ardoise des abîmes",
+  "advancements.mf.burger_bun.title": "Pain à Burger",
+  "advancements.mf.burger_bun.description": "Obtenez ou fabriquez un Pain à Burger",
+  "advancements.mf.burger.title": "Burger",
+  "advancements.mf.burger.description": "Obtenez ou fabriquez un Burger",
+  "advancements.mf.cheese.title": "Fromage",
+  "advancements.mf.cheese.description": "Obtenez ou fabriquez du Fromage"
 }
