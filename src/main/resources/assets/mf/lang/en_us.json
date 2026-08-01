@@ -1,10 +1,10 @@
 {
   "itemGroup.mf.main": "Moldovan Foods",
-
+  
   "block.mf.marar_crop": "Mărar",
   "block.mf.salt_ore": "Minereu de sare",
   "block.mf.deepslate_salt_ore": "Minereu din deepslate de sare",
-
+  
   "item.mf.castron": "Castron",
   "item.mf.castron_de_pelimene": "Castron di Pelimene",
   "item.mf.pachet": "Pachet",
@@ -21,7 +21,10 @@
   "item.mf.lavas": "Lavaș",
   "item.mf.salt_ore": "Minereu de sare",
   "item.mf.deepslate_salt_ore": "Minereu din deepslate de sare",
-
+  "item.mf.burger_bun": "Burger Bun",
+  "item.mf.burger": "Burger",
+  "item.mf.cheese": "Cheese",
+  
   "advancements.mf.root.description": "Have this mod activated in a world/server",
   "advancements.mf.kebab.title": "Kebab",
   "advancements.mf.kebab.description": "Obtain or craft a Kebab",
@@ -54,5 +57,11 @@
   "advancements.mf.salt_ore.title": "Salt Ore",
   "advancements.mf.salt_ore.description": "Obtain a Salt Ore using a silk touch pickaxe or other methods",
   "advancements.mf.deepslate_salt_ore.title": "Deepslate Salt Ore",
-  "advancements.mf.deepslate_salt_ore.description": "Obtain a Deepslate Salt Ore using a silk touch pickaxe or other methods"
+  "advancements.mf.deepslate_salt_ore.description": "Obtain a Deepslate Salt Ore using a silk touch pickaxe or other methods",
+  "advancements.mf.burger_bun.title": "Burger Bun",
+  "advancements.mf.burger_bun.description": "Obtain or craft a Burger Bun",
+  "advancements.mf.burger.title": "Burger",
+  "advancements.mf.burger.description": "Obtain or craft a Burger",
+  "advancements.mf.cheese.title": "Cheese",
+  "advancements.mf.cheese.description": "Obtain or craft a Cheese"
 }
