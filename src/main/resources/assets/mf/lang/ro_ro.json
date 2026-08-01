@@ -1,10 +1,10 @@
 {
   "itemGroup.mf.main": "Mâncăruri Moldovenești",
-
+ 
   "block.mf.marar_crop": "Mărar",
   "block.mf.salt_ore": "Minereu de Sare",
   "block.mf.deepslate_salt_ore": "Minereu de Sare din Deepslate",
-
+  
   "item.mf.castron": "Castron",
   "item.mf.castron_de_pelimene": "Castron di Pelimene",
   "item.mf.pachet": "Pachet",
@@ -21,7 +21,10 @@
   "item.mf.lavas": "Lavaș",
   "item.mf.salt_ore": "Minereu de Sare",
   "item.mf.deepslate_salt_ore": "Minereu de Sare din Deepslate",
-
+  "item.mf.burger_bun": "Chiflă de Burger",
+  "item.mf.burger": "Burger",
+  "item.mf.cheese": "Cașcaval", 
+  
   "advancements.mf.root.description": "Folosește acest mod într-o lume/server",
   "advancements.mf.kebab.title": "Kebab",
   "advancements.mf.kebab.description": "Obține ori creează un Kebab",
@@ -54,5 +57,11 @@
   "advancements.mf.salt_ore.title": "Minereu de Sare",
   "advancements.mf.salt_ore.description": "Obține un Minereu de Sare folosind un târnăcop cu Silk Touch sau altă metodă",
   "advancements.mf.deepslate_salt_ore.title": "Minereu de Sare din Deepslate",
-  "advancements.mf.deepslate_salt_ore.description": "Obține un Minereu de Sare din Deepslate folosind un târnăcop cu Silk Touch sau altă metodă"
+  "advancements.mf.deepslate_salt_ore.description": "Obține un Minereu de Sare din Deepslate folosind un târnăcop cu Silk Touch sau altă metodă",
+  "advancements.mf.burger_bun.title": "Chiflă de Burger",
+  "advancements.mf.burger_bun.description": "Obține ori creează o Chiflă de Burger",
+  "advancements.mf.burger.title": "Burger",
+  "advancements.mf.burger.description": "Obține ori creează un Burger",
+  "advancements.mf.cheese.title": "Brânză",
+  "advancements.mf.cheese.description": "Obține ori creează o Brânză"
 }
