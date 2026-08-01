@@ -1,10 +1,10 @@
 {
   "itemGroup.mf.main": "Moldawische Küche",
-
+  
   "block.mf.marar_crop": "Dill",
   "block.mf.salt_ore": "Salzerz",
   "block.mf.deepslate_salt_ore": "Tiefenschiefer-Salzerz",
-
+  
   "item.mf.castron": "Schüssel",
   "item.mf.castron_de_pelimene": "Schüssel mit Pelimene",
   "item.mf.pachet": "Paket",
@@ -21,7 +21,10 @@
   "item.mf.lavas": "Lavaș",
   "item.mf.salt_ore": "Salzerz",
   "item.mf.deepslate_salt_ore": "Tiefenschiefer-Salzerz",
-
+  "item.mf.burger_bun": "Burger-Brötchen",
+  "item.mf.burger": "Burger",
+  "item.mf.cheese": "Käse",
+  
   "advancements.mf.root.description": "Habe diesen Mod in einer Welt oder auf einem Server aktiviert",
   "advancements.mf.kebab.title": "Kebab",
   "advancements.mf.kebab.description": "Erhalte oder stelle einen Kebab her",
@@ -54,5 +57,11 @@
   "advancements.mf.salt_ore.title": "Salzerz",
   "advancements.mf.salt_ore.description": "Erhalte Salzerz",
   "advancements.mf.deepslate_salt_ore.title": "Tiefenschiefer-Salzerz",
-  "advancements.mf.deepslate_salt_ore.description": "Erhalte Tiefenschiefer-Salzerz"
+  "advancements.mf.deepslate_salt_ore.description": "Erhalte Tiefenschiefer-Salzerz",
+  "advancements.mf.burger_bun.title": "Burger-Brötchen",
+  "advancements.mf.burger_bun.description": "Erhalte oder stelle ein Burger-Brötchen her",
+  "advancements.mf.burger.title": "Burger",
+  "advancements.mf.burger.description": "Erhalte oder stelle einen Burger her",
+  "advancements.mf.cheese.title": "Käse",
+  "advancements.mf.cheese.description": "Erhalte oder stelle Käse her"
 }
