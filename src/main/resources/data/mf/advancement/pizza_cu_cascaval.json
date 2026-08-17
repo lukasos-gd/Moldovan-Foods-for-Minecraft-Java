@@ -1,0 +1,30 @@
+{
+  "parent": "mf:root",
+  "display": {
+    "icon": {
+      "id": "mf:pizza_cu_cascaval"
+    },
+    "title": {
+      "translate": "advancements.mf.pizza_cu_cascaval.title"
+    },
+    "description": {
+      "translate": "advancements.mf.pizza_cu_cascaval.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "got_pizza_cu_cascaval": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "mf:pizza_cu_cascaval"
+          }
+        ]
+      }
+    }
+  }
+}
