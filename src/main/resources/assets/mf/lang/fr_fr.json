@@ -23,7 +23,7 @@
   "item.mf.deepslate_salt_ore": "Minerai de Sel en Ardoise des abîmes",
   "item.mf.burger_bun": "Pain à Burger",
   "item.mf.burger": "Burger",
-  "item.mf.cheese": "Fromage",
+  "item.mf.cascaval": "Fromage",
   
   "advancements.mf.root.description": "Ayez ce mod activé dans un monde ou sur un serveur",
   "advancements.mf.kebab.title": "Kebab",
@@ -62,6 +62,6 @@
   "advancements.mf.burger_bun.description": "Obtenez ou fabriquez un Pain à Burger",
   "advancements.mf.burger.title": "Burger",
   "advancements.mf.burger.description": "Obtenez ou fabriquez un Burger",
-  "advancements.mf.cheese.title": "Fromage",
-  "advancements.mf.cheese.description": "Obtenez ou fabriquez du Fromage"
+  "advancements.mf.cascaval.title": "Fromage",
+  "advancements.mf.cascaval.description": "Obtenez ou fabriquez du Fromage"
 }
