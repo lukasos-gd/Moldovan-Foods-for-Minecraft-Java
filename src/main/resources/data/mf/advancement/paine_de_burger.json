@@ -2,13 +2,13 @@
   "parent": "mf:root",
   "display": {
     "icon": {
-      "id": "mf:burger_bun"
+      "id": "mf:paine_de_burger"
     },
     "title": {
-      "translate": "advancements.mf.burger_bun.title"
+      "translate": "advancements.mf.paine_de_burger.title"
     },
     "description": {
-      "translate": "advancements.mf.burger_bun.description"
+      "translate": "advancements.mf.paine_de_burger.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "mf:burger_bun"
+            "items": "mf:paine_de_burger"
           }
         ]
       }
