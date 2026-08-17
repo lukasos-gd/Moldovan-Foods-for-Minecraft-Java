@@ -23,7 +23,7 @@
   "item.mf.deepslate_salt_ore": "Tiefenschiefer-Salzerz",
   "item.mf.burger_bun": "Burger-Brötchen",
   "item.mf.burger": "Burger",
-  "item.mf.cheese": "Käse",
+  "item.mf.cascaval": "Käse",
   
   "advancements.mf.root.description": "Habe diesen Mod in einer Welt oder auf einem Server aktiviert",
   "advancements.mf.kebab.title": "Kebab",
@@ -62,6 +62,6 @@
   "advancements.mf.burger_bun.description": "Erhalte oder stelle ein Burger-Brötchen her",
   "advancements.mf.burger.title": "Burger",
   "advancements.mf.burger.description": "Erhalte oder stelle einen Burger her",
-  "advancements.mf.cheese.title": "Käse",
-  "advancements.mf.cheese.description": "Erhalte oder stelle Käse her"
+  "advancements.mf.cascaval.title": "Käse",
+  "advancements.mf.cascaval.description": "Erhalte oder stelle Käse her"
 }
