@@ -23,7 +23,7 @@
   "item.mf.deepslate_salt_ore": "Minereu de Sare din Deepslate",
   "item.mf.burger_bun": "Chiflă de Burger",
   "item.mf.burger": "Burger",
-  "item.mf.cheese": "Cașcaval", 
+  "item.mf.cascaval": "Cașcaval", 
   
   "advancements.mf.root.description": "Folosește acest mod într-o lume/server",
   "advancements.mf.kebab.title": "Kebab",
@@ -62,6 +62,6 @@
   "advancements.mf.burger_bun.description": "Obține ori creează o Chiflă de Burger",
   "advancements.mf.burger.title": "Burger",
   "advancements.mf.burger.description": "Obține ori creează un Burger",
-  "advancements.mf.cheese.title": "Brânză",
-  "advancements.mf.cheese.description": "Obține ori creează o Brânză"
+  "advancements.mf.cascaval.title": "Brânză",
+  "advancements.mf.cascaval.description": "Obține ori creează o Brânză"
 }
