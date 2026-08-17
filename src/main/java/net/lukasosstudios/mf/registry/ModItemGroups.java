@@ -29,6 +29,9 @@ public class ModItemGroups {
                 output.accept(ModItems.PAINE_DE_BURGER);
                 output.accept(ModItems.BURGER);
                 output.accept(ModItems.CASCAVAL);
+                output.accept(ModItems.PIZZA_CU_CASCAVAL);
+                output.accept(ModItems.CARNAT);
+                output.accept(ModItems.PAINE_CU_CASCAVAL);
                 output.accept(ModItems.CASTRON);
                 output.accept(ModItems.PACHET);
                 output.accept(ModItems.PACHET_DE_PELIMENE);
