@@ -9,16 +9,20 @@
       "mf:aluat",
       "mf:bors",
       "mf:burger",
-      "mf:burger_bun",
+      "mf:paine_de_burger",
+      "mf:carnat_from_smelting",
+      "mf:carnat_from_smoking",
+      "mf:cascaval",
       "mf:castron",
       "mf:castron_de_pelimene",
-      "mf:cheese",
       "mf:drojdie",
       "mf:kebab",
       "mf:lavas",
       "mf:pachet",
       "mf:pachet_de_pelimene",
+      "mf:paine_cu_cascaval",
       "mf:paine_cu_zacusca",
+      "mf:pizza_cu_cascaval",
       "mf:zacusca"
     ]
   }
