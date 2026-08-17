@@ -53,11 +53,10 @@ public class ModItems {
                     .saturationModifier(0.8f)
                     .build()));
 
-    // Placeholder nutrition/saturation values
     public static final Item BURGER_BUN = register("burger_bun", () -> new Item.Properties()
             .food(new FoodProperties.Builder()
-                    .nutrition(2)
-                    .saturationModifier(0.2f)
+                    .nutrition(5)
+                    .saturationModifier(0.6f)
                     .build()));
 
     public static final Item BURGER = register("burger", () -> new Item.Properties()
@@ -66,9 +65,9 @@ public class ModItems {
                     .saturationModifier(0.9f)
                     .build()));
 
-    public static final Item CHEESE = register("cheese", () -> new Item.Properties()
+    public static final Item CASCAVAL = register("cascaval", () -> new Item.Properties()
             .food(new FoodProperties.Builder()
-                    .nutrition(4)
+                    .nutrition(5)
                     .saturationModifier(0.4f)
                     .build()));
 
