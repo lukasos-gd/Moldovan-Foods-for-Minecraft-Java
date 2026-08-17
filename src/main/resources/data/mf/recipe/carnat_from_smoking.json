@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smoking",
   "category": "food",
-  "ingredient": "minecraft:porkchop",
+  "ingredient": "minecraft:cooked_porkchop",
   "result": {
     "id": "mf:carnat",
     "count": 1
