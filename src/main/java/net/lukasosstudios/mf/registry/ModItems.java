@@ -53,7 +53,7 @@ public class ModItems {
                     .saturationModifier(0.8f)
                     .build()));
 
-    public static final Item BURGER_BUN = register("burger_bun", () -> new Item.Properties()
+    public static final Item PAINE_DE_BURGER = register("paine_de_burger", () -> new Item.Properties()
             .food(new FoodProperties.Builder()
                     .nutrition(5)
                     .saturationModifier(0.6f)
