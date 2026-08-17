@@ -28,7 +28,7 @@ public class ModItemGroups {
                 output.accept(ModItems.CASTRON_DE_PELIMENE);
                 output.accept(ModItems.BURGER_BUN);
                 output.accept(ModItems.BURGER);
-                output.accept(ModItems.CHEESE);
+                output.accept(ModItems.CASCAVAL);
                 output.accept(ModItems.CASTRON);
                 output.accept(ModItems.PACHET);
                 output.accept(ModItems.PACHET_DE_PELIMENE);
