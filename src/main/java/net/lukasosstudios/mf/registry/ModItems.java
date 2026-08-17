@@ -71,6 +71,24 @@ public class ModItems {
                     .saturationModifier(0.4f)
                     .build()));
 
+    public static final Item PIZZA_CU_CASCAVAL = register("pizza_cu_cascaval", () -> new Item.Properties()
+            .food(new FoodProperties.Builder()
+                    .nutrition(8)
+                    .saturationModifier(0.7f)
+                    .build()));
+
+    public static final Item CARNAT = register("carnat", () -> new Item.Properties()
+            .food(new FoodProperties.Builder()
+                    .nutrition(8)
+                    .saturationModifier(0.8f)
+                    .build()));
+
+    public static final Item PAINE_CU_CASCAVAL = register("paine_cu_cascaval", () -> new Item.Properties()
+            .food(new FoodProperties.Builder()
+                    .nutrition(6)
+                    .saturationModifier(0.7f)
+                    .build()));
+
     public static final Item MARAR_SEEDS = registerBlockItem("marar_seeds", ModBlocks.MARAR_CROP);
 
     public static final Item SALT_ORE = registerBlockItem("salt_ore", ModBlocks.SALT_ORE);
