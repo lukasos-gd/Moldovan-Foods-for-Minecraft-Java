@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "mf:aluat",
+    "mf:cascaval",
+    "mf:cascaval"
+  ],
+  "result": {
+    "id": "mf:pizza_cu_cascaval",
+    "count": 1
+  }
+}

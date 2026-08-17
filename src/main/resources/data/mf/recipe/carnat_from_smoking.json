@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": "minecraft:porkchop",
+  "result": {
+    "id": "mf:carnat",
+    "count": 1
+  },
+  "experience": 0.35,
+  "cookingtime": 100
+}

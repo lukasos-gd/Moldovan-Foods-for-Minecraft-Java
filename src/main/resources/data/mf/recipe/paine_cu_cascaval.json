@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:bread",
+    "mf:cascaval"
+  ],
+  "result": {
+    "id": "mf:paine_cu_cascaval",
+    "count": 1
+  }
+}
