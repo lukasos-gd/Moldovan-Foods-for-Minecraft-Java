@@ -2,13 +2,13 @@
   "parent": "mf:root",
   "display": {
     "icon": {
-      "id": "mf:cheese"
+      "id": "mf:cascaval"
     },
     "title": {
-      "translate": "advancements.mf.cheese.title"
+      "translate": "advancements.mf.cascaval.title"
     },
     "description": {
-      "translate": "advancements.mf.cheese.description"
+      "translate": "advancements.mf.cascaval.description"
     },
     "frame": "task",
     "show_toast": true,
@@ -21,7 +21,7 @@
       "conditions": {
         "items": [
           {
-            "items": "mf:cheese"
+            "items": "mf:cascaval"
           }
         ]
       }
