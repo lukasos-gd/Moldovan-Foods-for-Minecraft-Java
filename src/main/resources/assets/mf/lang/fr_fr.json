@@ -1,10 +1,8 @@
 {
   "itemGroup.mf.main": "Cuisine Moldave",
-  
   "block.mf.marar_crop": "Aneth",
   "block.mf.salt_ore": "Minerai de Sel",
   "block.mf.deepslate_salt_ore": "Minerai de Sel en Ardoise des abîmes",
-  
   "item.mf.castron": "Bol",
   "item.mf.castron_de_pelimene": "Bol de Pelimene",
   "item.mf.pachet": "Paquet",
@@ -24,7 +22,6 @@
   "item.mf.paine_de_burger": "Pain à Burger",
   "item.mf.burger": "Burger",
   "item.mf.cascaval": "Fromage",
-  
   "advancements.mf.root.description": "Ayez ce mod activé dans un monde ou sur un serveur",
   "advancements.mf.kebab.title": "Kebab",
   "advancements.mf.kebab.description": "Obtenez ou fabriquez un Kebab",
@@ -63,5 +60,14 @@
   "advancements.mf.burger.title": "Burger",
   "advancements.mf.burger.description": "Obtenez ou fabriquez un Burger",
   "advancements.mf.cascaval.title": "Fromage",
-  "advancements.mf.cascaval.description": "Obtenez ou fabriquez du Fromage"
+  "advancements.mf.cascaval.description": "Obtenez ou fabriquez du Fromage",
+  "item.mf.pizza_cu_cascaval": "Pizza cu Cașcaval",
+  "item.mf.carnat": "Cârnat",
+  "item.mf.paine_cu_cascaval": "Pâine cu Cașcaval",
+  "advancements.mf.pizza_cu_cascaval.title": "Pizza cu Cașcaval",
+  "advancements.mf.pizza_cu_cascaval.description": "Obtenez ou fabriquez une Pizza cu Cașcaval",
+  "advancements.mf.carnat.title": "Cârnat",
+  "advancements.mf.carnat.description": "Obtenez ou faites cuire un Cârnat",
+  "advancements.mf.paine_cu_cascaval.title": "Pâine cu Cașcaval",
+  "advancements.mf.paine_cu_cascaval.description": "Obtenez ou fabriquez un Pâine cu Cașcaval"
 }
